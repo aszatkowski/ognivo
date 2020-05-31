@@ -9,6 +9,7 @@ public class GreetingController {
     @GetMapping("/greeting")
     public String greeting()
     {
-        return "Greeting From Artur's Mac Mini!";
+        return "Greeting From Artur's Mac Mini! Yeah!";
+        
     }
 }
